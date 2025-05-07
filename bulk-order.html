@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bulk Order Inquiry</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      padding: 2rem;
+      background-color:white;
+    }
+    body {
+  padding-top: 100px; /* adjust based on header height */
+}
+
+
+    form {
+      background: #f0efef;
+      padding: 2rem;
+      font-weight:600;
+      font-size:18px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    button[type="submit"] {
+      background-color: #d32f2f;
+      color: white;
+    }
+    .whatsapp-button {
+      background-color: #25D366;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 5px;
+      display: inline-block;
+      text-decoration: none;
+      margin-top: 1rem;
+    }
+    .whatsapp-button:hover {
+      background-color: #1ebe57;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">
+            <svg class="logo-svg" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="40" cy="40" r="30" fill="#d32f2f" />
+                <text x="40" y="45" text-anchor="middle" fill="white" font-size="10" font-weight="bold">DP Bangles</text>
+                <text x="130" y="42" text-anchor="start" fill="white" font-size="24" font-weight="bold">DP Bangles</text>
+                <text x="130" y="62" text-anchor="start" fill="#d32f2f" font-size="16">Glass Bangles</text>
+            </svg>
+        </div>
+        <nav>
+               
+            <div class="nav-links">
+                <a href="index.html" class="nav-link"> Back to Home</a>
+               
+            </div>
+            nav-link{}
+           
+            
+        </nav>
+    </div>
+</header>
+
+  <!-- Bulk Order Form -->
+  <div class="container">
+    <h2 class="mb-4">Bulk Order Inquiry</h2>
+    <form action="submit-bulk-order.php" method="post">
+      <div class="form-group">
+        <label for="name">Your Name</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="company">Shop Name</label>
+        <input type="text" class="form-control" id="company" name="company" required>
+      </div>
+      <div class="form-group">
+        <label for="address">Shop Address</label>
+        <textarea class="form-control" id="textarea" name="message"  required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="design">Customize Design</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+      </div>
+      <div class="form-group">
+        <label for="color">Customize Color</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Order Details</label>
+        <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit Inquiry</button>
+    </form>
+
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/919368811989?text=Hi, I'm interested in a bulk order." target="_blank" class="whatsapp-button">
+      💬 Chat with us on WhatsApp
+    </a>
+  </div>
+
+</body>
+</html>

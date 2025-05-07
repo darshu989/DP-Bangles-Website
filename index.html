@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DP Bangles</title>
+  
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <svg class="logo-svg" viewBox="0 0 250 80" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="40" cy="40" r="30" fill="#d32f2f" />
+                    <text x="40" y="45" text-anchor="middle" fill="white" font-size="10" font-weight="bold">DP Bangles</text>
+                    <text x="130" y="42" text-anchor="start" fill="white" font-size="24" font-weight="bold">DP Bangles</text>
+                    <text x="130" y="62" text-anchor="start" fill="#d32f2f" font-size="16">Glass Bangles</text>
+                </svg>
+            </div>
+            <nav>
+                   
+                <div class="nav-links">
+                    <a href="#home" class="nav-link">Home</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#size" class="nav-link">Measure Size</a>
+                    <a href="#testimonials" class="nav-link">Testimonials</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="bulk-order.html" class="btn1">Bulk Order</a>
+                </div>
+               
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Handcrafted Bangles, <br>
+                    Wear the Art</h1>
+                <p>One-Stop Destination for Bangles</p>
+                <a href="#products" class="btn btn-primary">Explore Our Products</a><br><br>
+                <a href="bulk-order.html" class="btn btn-secondary">Customize Bangles</a><br><br>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2>Our Bangles Collection</h2>
+            <p class="section-description">Sleek, stylish, and made to shine — discover the new age of glass bangles.</p>
+            
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">All Products</button>
+                <button class="filter-btn " data-filter="Plain">Plain Bangles</button>
+                <button class="filter-btn" data-filter="Multicolor">Multicolor Bangles</button>
+                <button class="filter-btn" data-filter="Festival">Festival Special</button>
+                <button class="filter-btn" data-filter="Casual">Casual Bangles</button>  
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="Plain">
+                    <div class="product-image">
+                        <img src="green plain bangle.png.webp" alt="Green Plain Glass Bangle" class="placeholder-image main-image">
+                        <div class="image-overlay">
+                            <span>Shop Now</span>
+                        </div>
+                        
+                    </div>
+                    <div class="product-info">
+                        <h3>Green Plain Glass Bangle</h3>
+                        <p class="product-mrp">MRP: ₹35/per dozen</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-truck"></i>Deliver in 15 Days</span>
+                            <span><i class="fas fa-ring"></i>Plain Glass</span>
+                        </div>
+                    </div>
+                </div>  
+           
+                  
+                
+                <div class="product-card" data-category="Plain">
+                    <div class="product-image">
+                        <img src="red 2.png.jpeg" alt="Red Plain Glass Bangle" class="placeholder-image main image">
+                        <div class="image-overlay">
+                            <span>Shop Now</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Red Plain Glass Bangle </h3>
+                        <p class="product-mrp">MRP: ₹35/per dozen</p>
+                        
+                        <div class="product-features">
+                            <span><i class="fas fa-truck"></i>Delivery in 15 Days</span>
+                            <span><i class="fas fa-ring"></i>Plain Glass</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="Multicolor">
+                    <div class="product-image">
+                        <img src="multicolor.png" alt="Multicolor Glass Bangle" class="placeholder-image main image">
+                        <div class="image-overlay">
+                            <span>Shop Now</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Multicolor Glass Bangle </h3>
+                        <p class="product-mrp">MRP: ₹50/per dozen</p>
+                        <div class="product-features">
+                            <span><i class="fas fa-truck"></i>Ready to Ship</span>
+                            <span><i class="fas fa-ring"></i>Multicolor Glass</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="Festival">
+                    <div class="product-image">
+                        <img src="Festival red.png" alt="Festival Special Bangle" class="placeholder-image main image">
+                        <div class="image-overlay">
+                            <span>Shop Now</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Red Ruby Glass Bangle </h3>
+                        <p class="product-mrp">MRP: ₹85/per dozen</p>
+                        
+                        <div class="product-features">
+                            <span><i class="fas fa-truck"></i>Ready to Ship</span>
+                            <span><i class="fas fa-ring"></i>Fancy Glass</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="Festival">
+                    <div class="product-image">
+                        <img src="Festival golden.png" alt="Festival Special Bangle" class="placeholder-image main image">
+                        <div class="image-overlay">
+                            <span>Shop Now</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Golden Fancy Glass Bangle </h3>
+                        <p class="product-mrp">MRP: ₹62/per dozen</p>
+                        
+                        <div class="product-features">
+                            <span><i class="fas fa-truck"></i>Ready to Ship</span>
+                            <span><i class="fas fa-ring"></i>Fancy Glass</span>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card" data-category="Casual">       
+                    <div class="product-image">
+                        <img src="bridal.png" alt="Casual Glass Bangle" class="placeholder-image main image">
+                        <div class="image-overlay">
+                            <span>Shop Now</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Red Fancy Casual Bangle </h3>
+                        <p class="product-mrp">MRP: ₹120/per dozen</p>
+                        
+                        <div class="product-features">
+                            <span><i class="fas fa-truck"></i>Deliver in 20 Days</span>
+                            <span><i class="fas fa-ring"></i>Casual Bangles</span>
+                            
+                        </div>
+                    </div>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+      
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About DP Bangles</h2>
+                    <h4>Welcome to DP Bangles – where tradition meets craftsmanship.</h4>
+                    <p>At DP Bangles, we celebrate the timeless beauty of glass bangles, handcrafted with love and precision. Rooted in the rich cultural heritage of Firozabad, our brand is dedicated to reviving and promoting India’s traditional bangle-making artistry. Each piece we create is not just an accessory, but a reflection of elegance, emotion, and expression.</p>
+                    
+                    <p>Our journey began with a simple vision — to bring premium quality glass bangles to every woman who values grace and tradition. With a focus on ethical craftsmanship, we work closely with skilled artisans to ensure every bangle is durable, comfortable, and vibrant. From classic designs to contemporary patterns, our collections are curated to suit every occasion, from daily wear to festive celebrations.</p>
+                    
+                    <p>DP Bangles isn’t just about jewelry — it’s about empowering identity and celebrating femininity. As we continue to grow, our mission remains clear: to blend traditional art with modern aesthetics while offering exceptional service. Whether you’re shopping for yourself or gifting someone special, DP Bangles promises unmatched beauty, value, and a connection to India’s cultural soul.</p>
+                    
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-hand-sparkles feature-icon"></i>
+                            <h3>Handcrafted</h3>
+                            <p>Every bangle at DP Bangles is meticulously handmade by skilled artisans</p>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-palette feature-icon"></i>
+                            <h3>Customize Designs & Colors</h3>
+                            <p>Making it easy to find the perfect match for your outfit.</p>
+                    
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-wallet feature-icon"></i>
+                            <h3>Affordable</h3>
+                            <p>We believe beauty shouldn't come at a high cost.</p>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="bridal.png" alt="Casual Glass Bangle" class="Casual Glass Bangle">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2>Why Buy From DP Bangles</h2>
+            <p class="section-description">Discover the perfect blend of tradition and trend with every piece. Here’s why our customers love us:</p>
+            
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <h3> Handcrafted Quality</h3>
+                    <p>Every bangle is made with care by skilled artisans.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3> Unique & Diverse Design</h3>
+                    <p> From classic to contemporary, we have styles for every occasion</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <h3>Affordable Elegance</h3>
+                    <p>Luxury look without the heavy price tag.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Reliable Delivery</h3>
+                    <p>Timely and safe delivery, right to your doorstep.</p>
+                </div>
+                
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-smile"></i>
+                    </div>
+                    <h3>Customer Satisfaction</h3>
+                    <p>Trusted by hundreds for our quality and service.</p>
+                </div>
+                
+            </div>
+            
+
+
+
+
+<!-- Bangle Size Chart Section -->
+<section id="size" class="size">
+    <div class="container">
+      <h2>Bangle Size Chart</h2>
+      <p>Measure your hand or an existing bangle to find the perfect fit.</p>
+  
+      <div class="size-chart-wrapper">
+        <table class="size-chart">
+          <thead>
+            <tr>
+              <th>Bangle Size (India)</th>
+              <th>Diameter (inches)</th>
+              <th>Diameter (mm)</th>
+              <th>Circumference (mm)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>2.2</td>
+              <td>2.125″</td>
+              <td>54 mm</td>
+              <td>170 mm</td>
+            </tr>
+            <tr>
+              <td>2.4</td>
+              <td>2.25″</td>
+              <td>57.2 mm</td>
+              <td>180 mm</td>
+            </tr>
+            <tr>
+              <td>2.6</td>
+              <td>2.375″</td>
+              <td>60.3 mm</td>
+              <td>190 mm</td>
+            </tr>
+            <tr>
+              <td>2.8</td>
+              <td>2.5″</td>
+              <td>63.5 mm</td>
+              <td>200 mm</td>
+            </tr>
+            <tr>
+              <td>2.10</td>
+              <td>2.625″</td>
+              <td>66.7 mm</td>
+              <td>210 mm</td>
+            </tr>
+            <tr>
+              <td>2.12</td>
+              <td>2.75″</td>
+              <td>69.9 mm</td>
+              <td>220 mm</td>
+            </tr>
+            <tr>
+              <td>3.0</td>
+              <td>2.875″</td>
+              <td>73 mm</td>
+              <td>230 mm</td>
+            </tr>
+          </tbody>
+        </table>
+  <br>
+  
+        <div class="how-to-measure">
+          <h3>How to Measure</h3>
+          <ul>
+            <li><strong>Using a Bangle:</strong> Measure the inner diameter of a well-fitting bangle.</li>
+            <li><strong>Using Your Hand:</strong> Touch your thumb to your pinky, measure around the widest part of your hand, and match it to the chart.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+
+
+   
+            
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <h2>Testimonials</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"Absolutely stunning bangles! The colors are vibrant, and the finish is top-notch. I've received so many compliments!"</p>
+                        <div class="testimonial-author">
+                            <h4>Mayank Sharma</h4>
+                            <p>Rohtak, Haryana</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>"DP Bangles never disappoints. The variety is amazing and each piece feels so special. Fast delivery too!"</p>
+                        <div class="testimonial-author">
+                            <h4>Sunita Paul</h4>
+                            <p>Delhi</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+                        <p>I gifted a set to my sister and she loved it. Elegant, affordable, and beautifully packaged.</p>
+                        <div class="testimonial-author">
+                            <h4>Pradeep Singh</h4>
+                            <p>Chandigarh</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        <br>
+            <div class="testimonial-controls">
+                <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+                <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Visit Us</h3>
+                            <p>DP Bangles<br>
+                           Suhag Nagar, Sector-4 <br>
+                            Firozabad, Uttar Pradesh</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Call Us</h3>
+                            <p>+91 8475046790</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email Us</h3>
+                            <p>dineshpra7890@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Business Hours</h3>
+                            <p>Monday - Saturday: 10:00 AM - 8:00 PM<br>
+                            Sunday: Close</p>
+                        </div>
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d15513.484909812738!2d78.37272432748276!3d27.146061621594594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sSuhag%20Nagar%20Sector%204%20Firozabad%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1745992698037!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+</body>
+
+
+      <div class="footer-bottom">
+        <p>&copy; 2019 DP Bangles. All Rights Reserved.</p>
+      </div>
+
+    <script src="script.js"></script>
+
+</html>
